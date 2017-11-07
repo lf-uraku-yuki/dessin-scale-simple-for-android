@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarDefaultDelayBeforeFade="1500" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/config_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/config_title"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/aspect_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/config_header"
+            android:layout_marginTop="25dip"
+            android:text="@string/aspect_label"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/aspect_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/aspect_label"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/aspect_label"
+            android:drawSelectorOnTop="true" />
+
+        <TextView
+            android:id="@+id/color_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aspect_label"
+            android:layout_marginTop="35dip"
+            android:text="@string/color_label"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/color_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/color_label"
+            android:layout_alignLeft="@id/aspect_spinner"
+            android:drawSelectorOnTop="true" />
+
+        <CheckBox
+            android:id="@+id/middle_line_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/color_label"
+            android:layout_marginTop="15dip"
+            android:text="@string/middle_line" />
+
+        <CheckBox
+            android:id="@+id/zoom_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/middle_line_check"
+            android:layout_marginTop="15dip"
+            android:text="@string/zoom_check" />
+        
+        <CheckBox
+            android:id="@+id/zoom_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/zoom_check"
+            android:layout_toRightOf="@+id/zoom_check"
+            android:layout_marginLeft="10dip"
+            android:enabled="false"
+            android:text="@string/zoom_plus" />
+
+        <TextView
+            android:id="@+id/howto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zoom_check"
+            android:layout_marginTop="20dip"
+            android:text="@string/howto"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/howto_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zoom_check"
+            android:layout_marginTop="20dip"
+            android:layout_toRightOf="@id/howto"
+            android:text="@string/first_launch_af"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/howto_1"
+            android:layout_marginTop="10dip"
+            android:text="@string/hint"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/auther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hint"
+            android:layout_marginTop="10dip"
+            android:text="@string/auther"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/auther_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/auther"
+            android:layout_toRightOf="@id/auther"
+            android:text="@string/auther_name"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/immunity_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/auther"
+            android:text="@string/immunity_header"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/immunity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/immunity_header"
+            android:layout_toRightOf="@id/immunity_header"
+            android:text="@string/immunity"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

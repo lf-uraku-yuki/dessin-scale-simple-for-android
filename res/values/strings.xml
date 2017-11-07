@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- アプリ名 -->
+    <string name="app_name">DessinScale simple</string>
+
+    <!-- オプションメニュー -->
+    <string name="config">Setting</string>
+
+    <!-- 設定画面内 -->
+    <string name="config_title">Setting</string>
+    <string name="aspect_label">Scale Aspect Ratio</string>
+    <string name="color_label">Scale Corol</string>
+    <string name="middle_line">Auxiliary line</string>
+    <string name="auther">Author：</string>
+    <string name="auther_name">uraku</string>
+    <string name="first_launch_af">Screen tap: Autofocus</string>
+    <string name="first_launch_cfg">Menu buttom: Open the menu</string>
+    <string name="focus_set">AF</string>
+    <string name="display_hold">Screen hold</string>
+    <string name="hold_off">Hold Off</string>
+
+    <string-array name="aspect_list">
+        <item>Figure</item>
+        <item>Paysage</item>
+        <item>Marin</item>
+        <item>ISO 216 (A4, etc.)</item>
+        <item>Charcoal paper</item>
+    </string-array>
+    <string-array name="color_list">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Shadow (Semitransparent)</item>
+    </string-array>
+
+    <string name="howto">How to use: </string>
+    <string name="immunity_header">Immunity:</string>
+    <string name="immunity">No Warranty The Software. The author is not responsible for any trouble.</string>
+    <string name="start_failed">Failed to start the camera.</string>
+    <string name="zoom_check">Wide-angle lens correction</string>
+    <string name="zoom_plus">++</string>
+    <string name="hint">The magnification of lens compensation is model dependence.</string>
+
+</resources>

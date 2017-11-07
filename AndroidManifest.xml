@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ur.om.ilust.scale"
+    android:versionCode="11"
+    android:versionName="1.1.4" >
+
+    <!-- Android2.2以降で対応 -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    <!-- 対応ディスプレイサイズ -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <!-- カメラを使うためのパーミッションを追加 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- アイコン、アイコンラベル -->
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/desukeru_icon"
+        android:label="@string/app_name" >
+
+        <!-- Activity設定 -->
+        <activity
+            android:name=".DessinScaleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" > <!-- 画面を横向き固定 -->
+
+
+            <!-- インテントフィルターの設定 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfigActivity"
+            android:label="@string/config_title"
+            android:screenOrientation="sensor" >
+        </activity>
+    </application>
+
+</manifest>

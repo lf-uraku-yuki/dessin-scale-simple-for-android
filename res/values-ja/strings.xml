@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- アプリ名 -->
+    <string name="app_name">DessinScale simple</string>
+
+    <!-- オプションメニュー -->
+    <string name="config">設定</string>
+
+    <!-- 設定画面内 -->
+    <string name="config_title">各種設定</string>
+    <string name="aspect_label">スケールのサイズ：</string>
+    <string name="color_label">スケールの色：</string>
+    <string name="middle_line">補助線を表示</string>
+    <string name="auther">作者：</string>
+    <string name="auther_name">uraku</string>
+    <string name="first_launch_af">画面のタップ: オートフォーカス</string>
+    <string name="first_launch_cfg">メニューボタン: メニューを開く</string>
+    <string name="focus_set">AF</string>
+    <string name="display_hold">画面のホールド</string>
+    <string name="hold_off">ホールド解除</string>
+
+    <string-array name="aspect_list">
+        <item>Figure:人物</item>
+        <item>Paysage:風景</item>
+        <item>Marin:海景</item>
+        <item>ISO 216:A4、B5用紙など</item>
+        <item>木炭紙</item>
+    </string-array>
+    <string-array name="color_list">
+        <item>ホワイト</item>
+        <item>ブラック</item>
+        <item>レッド</item>
+        <item>グリーン</item>
+        <item>ブルー</item>
+        <item>シャドウ(半透明)</item>
+    </string-array>
+
+    <string name="howto">操作方法:</string>
+    <string name="immunity_header">免責:</string>
+    <string name="immunity">本ソフトウェアは無保証です。使用により発生したいかなるトラブルも、作者は責任を負うことができません。</string>
+    <string name="start_failed">カメラの起動に失敗しました</string>
+    <string name="zoom_check">広角レンズ補正</string>
+    <string name="zoom_plus">++</string>
+    <string name="hint">広角レンズ補正でズームする倍率は機種依存です。動作しない機種も有ります。</string>
+
+</resources>
